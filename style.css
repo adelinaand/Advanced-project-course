@@ -1,0 +1,72 @@
+#startpage {
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+h1 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vh;
+    margin-left: 16%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+p {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #687A61;
+    border: none;
+    border-radius: 15px;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 2.5vw;
+    color: #D3B094;
+    font-weight: bold;
+}
+
+#questionpage {
+    margin-top: 15%;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #f28500; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+    margin-left: 45%;
+    margin-top: 20%;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #last {
+      margin-top: 20%;
+  }
